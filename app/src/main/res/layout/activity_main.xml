@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimaryDark"
+        app:titleTextColor="#fff"
+        app:title="Atul Studio"
+        app:subtitleTextColor="#fff"
+        app:subtitle="http://github.com/wardatulhisaniah"
+        app:logo="@android:drawable/ic_search_category_default"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"/>
+
+    <ListView
+        android:id="@+id/lvnegara"
+        android:layout_marginStart="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
